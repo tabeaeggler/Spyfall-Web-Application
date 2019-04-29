@@ -1,0 +1,58 @@
+/***********************************
+    Navigation
+ **********************************/
+
+.main-container {
+    background-color: #282828;
+    font-family: Verdana;
+    font-weight: lighter;
+    padding: 6%;
+}
+/*logo*/
+.logo-container {
+    float: left;
+    width: 14px;
+    color: #6e7587;
+}
+.logo-container p {
+    font-size: 130%;
+    color: #fa5c0c;
+    margin-top: -2px;
+}
+#logo {
+    height: 60px;
+}
+
+/*navigation buttons*/
+.nav-links {
+}
+.top-nav {
+    overflow: hidden;
+    padding-bottom: 60px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.nav-links a {
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 15px;
+    color: #fa5c0c;
+    text-align: center;
+    float: right;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 6px;
+    border: solid 1px #fa5c0c;
+    border-radius: 5px;
+}
+.nav-links a:hover {
+    color: rgb(50,50,50);
+    text-decoration: none;
+    background-color: #fa5c0c;;
+}
+
+
+
+
+

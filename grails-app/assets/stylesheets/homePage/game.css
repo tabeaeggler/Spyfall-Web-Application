@@ -1,0 +1,193 @@
+/***********************************
+     General
+ **********************************/
+/*CSS Custom Variables*/
+:root{
+    --grey-light: rgb(120,120,120);
+    --grey-medium: rgb(70,70,70);
+    --grey-dark: rgb(50,50,50);
+    --orange: #fa5c0c;
+}
+/*Icons*/
+.fa-plus,
+.fa-user,
+.fa-map-marker
+{
+    margin-right: 5px;
+}
+/*Change color from Chrome autocomplete*/
+@-webkit-keyframes autofill {
+    to {
+        color: var(--grey-light);
+        background: var(--grey-dark);
+    }
+}
+input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}
+
+/***********************************
+    Form: Player & Location
+ **********************************/
+.form-container {
+    width: 60%;
+}
+.textbox {
+    background-color: var(--grey-dark);
+    border: transparent;
+    padding: 10px;
+    color: var(--grey-light);
+    margin-bottom: 7px;
+    border-radius: 5px;
+}
+.textbox:focus{
+    outline: none;
+    border: solid 1px var(--grey-light);
+}
+.form-button {
+    background-color: var(--grey-medium);
+    color: var(--grey-light);
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+}
+.form-button:hover {
+    background-color: var(--grey-light);
+    color: var(--grey-dark);
+    border-style: none;
+}
+#form-block1,
+#form-block2 {
+    display: inline-block;
+}
+.form-container {
+    color: var(--grey-light);
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+}
+.line-button {
+    display: inline-block;
+}
+
+/***********************************
+    Buttons
+ **********************************/
+#button-add-player {
+    float: right;
+    margin-right: 130px;
+    width: 170px;
+    margin-left: -5%;
+    text-align: left;
+}
+#button-add-location {
+    float: right;
+    margin-right: 120px;
+    width: 170px;
+    margin-left: -5%;
+    text-align: left;
+}
+.button-normal {
+    background-color: transparent;
+    border: solid 1px var(--grey-light);
+    border-radius: 5px;
+    height: 40px;
+    color:  var(--grey-light);
+    margin-bottom: 20px;
+    display: inline-block;
+    padding-left: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+.button-normal:hover {
+    background-color: var(--grey-light);
+    color: var(--grey-dark);
+}
+.button-start {
+    background-color: transparent;
+    border: solid 1px var(--orange);
+    border-radius: 5px;
+    height: 40px;
+    color: var(--orange);
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.button-start:hover {
+    background-color: var(--orange);
+    color: var(--grey-medium);
+}
+.button-end {
+    background-color: transparent;
+    border: solid 1px var(--orange);
+    border-radius: 5px;
+    height: 40px;
+    color: var(--orange);
+    margin-bottom: 20px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 7px;
+}
+.button-end:hover {
+    background-color: var(--orange);
+    color: var(--grey-medium);
+    text-decoration: none;
+}
+.button-game {
+    background-color: transparent;
+    border: solid 1px var(--grey-light);
+    border-radius: 5px;
+    height: 40px;
+    color: var(--grey-light);
+    margin-bottom: 20px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 7px;
+}
+.button-game:hover {
+    background-color: var(--grey-light);
+    color: var(--grey-medium);
+    text-decoration: none;
+}
+
+/***********************************
+     Introduction & startGame
+ **********************************/
+.setup-box{
+    display: inline-block;
+    margin: 0px 20px;
+    text-align: left;
+}
+
+.player-container {
+    background-color: var(--grey-dark);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+/***********************************
+     gameStarted
+ **********************************/
+.player-role {
+    background-color: var(--grey-dark);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+/***********************************
+     about
+ **********************************/
+.about-container {
+    background-color: var(--grey-dark);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+#list-style {
+    list-style: none;
+}
